@@ -1,0 +1,27 @@
+.header {
+  background-color: #373b69;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.input {
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 1rem;
+  border: 2px solid #22254b;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+}
+
+.input::placeholder {
+  color: #7074bb;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  background-color: #22254b;
+}

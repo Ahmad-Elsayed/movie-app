@@ -1,0 +1,61 @@
+.containerStyle {
+  width: 300px;
+  margin: 1rem;
+  position: relative;
+  border-radius: 3px;
+  background-color: #373b69;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.imageStyle {
+  width: 100%;
+  margin: 0;
+}
+
+.movieInfo {
+  padding: 0.5rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleStyle {
+  margin: 0;
+  color: white;
+}
+
+.rating {
+  background-color: #22254b;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 900;
+  color: brown;
+}
+
+.ratingHigh {
+  color: lightgreen;
+}
+
+.desc {
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+}
+
+.desc h3 {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.containerStyle:hover .desc {
+  transform: translate(0);
+}
